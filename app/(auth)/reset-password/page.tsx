@@ -13,8 +13,8 @@ export default function ResetPassword() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1 mb-4">Forgot your password?</h1>
-            <p className="text-xl text-gray-400">We'll email you instructions on how to reset it.</p>
+            <h1 className="h1 mb-4">Lupa Password?</h1>
+            <p className="text-xl text-gray-400">Instruksi melakukan lupa password akan dikirimkan ke email.</p>
           </div>
 
           {/* Form */}
@@ -23,7 +23,7 @@ export default function ResetPassword() {
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="email">Email</label>
-                  <input id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@yourcompany.com" required />
+                  <input id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@gmail.com" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
